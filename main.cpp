@@ -31,7 +31,7 @@ int main()
    srand(time(NULL)); 
     for (i = 0; i < 100000000; i++)
     {
-       int n = rand() %10 +1; //change this to your desire and don't touch anything else
+       int n = rand() %10 +1; //change this to your desire 
     switch (n) {
         case 1: count1 = count1 +1; break;  
          case 2: count2 = count2 +1; break;  
